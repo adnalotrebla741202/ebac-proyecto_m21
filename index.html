@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Menjurje</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/scripts.js" defer></script>
+</head>
+<body>
+    <header class="header">
+        <h1 class="header__title">El Rinconcito Poblano</h1>
+        <button class="header__cart-toggle">Ver Carrito
+            <span class="cart__indicator"></span>
+        </button>
+    </header>
+
+    <main class="main">
+        <section class="products">
+            <article class="product">
+                <img src="assets/img/BisctecRanchero_348x348.png" alt="platillo bistec ranchero" class="product__image">
+                <h2 class="product__title">Bistec Ranchero</h2>
+                <span class="product__price">$60.00</span>
+                <button class="product__add-to-cart" data-id="1">Agregar al carrito</button>
+            </article>
+
+            <article class="product">
+                <img src="assets/img/HuevosRancheros_348x348.png" alt="platillo huevos rancheros" class="product__image">
+                <h2 class="product__title">Huevos Rancheros</h2>
+                <span class="product__price">$50.00</span>
+                <button class="product__add-to-cart" data-id="2">Agregar al carrito</button>
+            </article>
+
+            <article class="product">
+                <img src="assets/img/torta_huevo_chorizo_modificado_348x348.png" alt="platillo torta de huevo" class="product__image">
+                <h2 class="product__title">Torta De Huevo</h2>
+                <span class="product__price">$45.00</span>
+                <button class="product__add-to-cart" data-id="3">Agregar al carrito</button>
+            </article>
+
+            <article class="product">
+                <img src="assets/img/cemita-quesillo-completa-348x348.png" alt="platillo cemita de quesillo" class="product__image">
+                <h2 class="product__title">Cemita De Quesillo</h2>
+                <span class="product__price">$40.00</span>
+                <button class="product__add-to-cart" data-id="4">Agregar al carrito</button>
+            </article>
+
+            <article class="product">
+                <img src="assets/img/cemita_carne_asada_348x348.png" alt="platillo cemita de carne" class="product__image">
+                <h2 class="product__title">Cemita De Carne</h2>
+                <span class="product__price">$40.00</span>
+                <button class="product__add-to-cart" data-id="5">Agregar al carrito</button>
+            </article>
+
+            <article class="product">
+                <img src="assets/img/comida_bistec_res_348x348.png" alt="platillo bistec" class="product__image">
+                <h2 class="product__title">Bistec</h2>
+                <span class="product__price">$60.00</span>
+                <button class="product__add-to-cart" data-id="6">Agregar al carrito</button>
+            </article>
+
+            <article class="product">
+                <img src="assets/img/molote-quesillo-sinelementos-348x348.png" alt="platillo molotes de quesillo" class="product__image">
+                <h2 class="product__title">Molotes De Quesillo</h2>
+                <span class="product__price">$35.00</span>
+                <button class="product__add-to-cart" data-id="7">Agregar al carrito</button>
+            </article>
+
+            <article class="product">
+                <img src="assets/img/TACOS_MILANESA_POLLO_348x348.png" alt="platillo taco de milanesa" class="product__image">
+                <h2 class="product__title">Taco De Milanesa</h2>
+                <span class="product__price">$40.00</span>
+                <button class="product__add-to-cart" data-id="8">Agregar al carrito</button>
+            </article>
+
+        </section>
+    </main>
+
+    <aside class="cart">
+        <h2 class="cart__title">Carrito de Compras</h2>
+        <div class="cart__items">
+            <!-- Los productos del carrito se agregarán aquí dinámicamente -->
+        </div>
+        <p class="cart__total">Total: $0.00</p>
+        <button class="cart__clear" disabled>Vaciar Carrito</button>
+        <button class="cart__checkout" disabled>Confirmar Compra</button>
+        <button class="cart__close">Cerrar Carrito</button>
+    </aside>
+</body>
+</html>
